@@ -6,10 +6,7 @@
   "scripts": {
     "server": "nodemon index.js",
     "start": "node index.js",
-    "test": "jest --watch --verbose"
-  },
-  "jest": {
-    "testEnvironment": "node"
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "Lambda School",
@@ -24,5 +21,8 @@
     "jest": "^26.0.1",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
